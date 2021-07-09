@@ -1,0 +1,12 @@
+@import url(//css/reset.css);
+
+header {
+	width: 100%;
+	background: #fff;
+}
+
+.header_wrap {
+	width: 62.5%;
+	margin: 0 auto;
+	display: flex;
+}
