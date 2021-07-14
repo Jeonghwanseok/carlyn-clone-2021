@@ -6,12 +6,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/reset.css" />
+		<script src="/js/index.js"></script>
+		<script src="/js/jquery.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 		<link
 			rel="stylesheet"
 			href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
 			integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
 			crossorigin="anonymous"
 		/>
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous"
+		></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 		<title>Document</title>
 	</head>
@@ -23,21 +33,74 @@
 					<h1>
 						<a href="#"><img src="/img/m_logo.png" alt="logo" /></a>
 					</h1>
-					<div class="gnb_wrap">
+					<nav class="gnb">
 						<ul>
-							<li>BRAND</li>
-							<li>WALLET</li>
-							<li>BAG</li>
-							<li>SCARF</li>
-							<li>EXCLUSIVE</li>
-							<li>SPECIAL PRICE</li>
+							<li>
+								<a href="#">BRAND</a>
+								<ul>
+									<li><a href="#">ABOUT</a></li>
+									<li><a href="#">AD</a></li>
+									<li><a href="#">FILM</a></li>
+									<li><a href="#">PRESS</a></li>
+									<li><a href="#">STORE</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">WALLET</a>
+								<ul>
+									<li><a href="#">장지갑</a></li>
+									<li><a href="#">중지갑</a></li>
+									<li><a href="#">반지갑</a></li>
+									<li><a href="#">카드지갑</a></li>
+									<li><a href="#">ETC</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">BAG</a>
+								<ul>
+									<li><a href="#">Hester</a></li>
+									<li><a href="#">2019 F/W</a></li>
+									<li><a href="#">2019 S/S</a></li>
+									<li><a href="#">2018</a></li>
+									<li><a href="#">SALE</a></li>
+									<li><a href="#">SET</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">SCARF</a>
+								<ul>
+									<li><a href="#">SCARF</a></li>
+									<li><a href="#">MUFFLER</a></li>
+									<li><a href="#">FUR</a></li>
+								</ul>
+							</li>
+
+							<li>
+								<a href="#">EXCLUSIVE</a>
+								<ul>
+									<li><a href="#">BAG</a></li>
+									<li><a href="#">WALLET</a></li>
+									<li><a href="#">CLOTHES</a></li>
+									<li><a href="#">ACC</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">SPECIAL PRICE</a>
+								<ul>
+									<li><a href="#">BAG</a></li>
+									<li><a href="#">WALLET</a></li>
+									<li><a href="#">ACC</a></li>
+									<li><a href="#">SCARF</a></li>
+								</ul>
+							</li>
 						</ul>
-					</div>
+					</nav>
 					<div class="btn_area">
 						<button class="search">Search</button>
 						<button class="login">Login</button>
 					</div>
 				</div>
+				<div class="depth2-bg"></div>
 			</header>
 			<!-- 헤더 -->
 
@@ -212,9 +275,11 @@
 						<p>1800 - 8190</p>
 						<span>9:00am-6:00pm</span>
 						<span>Sat,Sun,Holiday OFF</span>
+						<div id="test">test</div>
 					</div>
 				</div>
 			</footer>
+
 			<!-- 푸터 -->
 		</div>
 	</body>
