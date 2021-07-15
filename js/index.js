@@ -1,5 +1,3 @@
-$("#test").css("border", "1px solid blue");
-
 $(function () {
 	// 메인슬라이드
 	var swiper1 = new Swiper(".swiper1", {
